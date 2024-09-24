@@ -1,0 +1,220 @@
+/* roboto-flex-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto Flex';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/roboto-flex-v9-latin-regular.woff2') format('woff2');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-item{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+body {
+  font-family: 'Roboto Flex' !important;
+}
+
+.img img {
+  width: 187px;
+}
+
+.flex1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.self {
+  align-items: center;
+}
+
+.header {
+  position: relative;
+}
+
+.header li {
+  margin: 0 30px;
+  list-style: none;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 30px 0;
+}
+
+.btn1 {
+  margin-bottom: 10px;
+}
+
+.mainmenu .submenu {
+  background-color: white;
+  padding: 0;
+}
+
+.submenu li {
+  padding: 10px;
+}
+
+.submenu {
+  position: absolute;
+  top: 80px;
+  left: 380px;
+  display: none;
+  z-index: 10;
+  background-color: red;
+}
+
+.header li:hover .submenu {
+  display: block;
+}
+
+.btn1 button {
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  color: black;
+  margin-left: 10px;
+}
+
+.btn1 button:hover {
+  background-color: #b0bbba;
+  border: 1px solid #b0bbba;
+  color: black;
+  transition: .4s;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img1 img {
+  height: 600px;
+}
+
+.bg {
+  background-color: #e5e6e1;
+  padding-top: 98.5px;
+}
+
+.bg2 {
+  background-color: #e5e6e1;
+}
+
+.write h1 {
+  /* text-align: center; */
+  position: absolute;
+  left: 200px;
+  margin-top: 100px;
+  font-size: 60px;
+}
+
+.write h5 {
+  position: absolute;
+  left: 200px;
+  margin-top: 370px;
+  /* font-size: ; */
+}
+
+.btn2 {
+  position: absolute;
+  left: 200px;
+  margin-top: 420px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  color: white;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.btn3 {
+  position: absolute;
+  left: 400px;
+  margin-top: 420px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #e5e6e1;
+  border: 1px solid black;
+}
+
+.center {
+  text-align: center;
+}
+
+.bg1 {
+  background-color: #b0bbba;
+}
+
+.btn4 {
+  position: absolute;
+  left: 200px;
+  margin-top: 500px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  color: white;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.btn4:hover {
+  background-color: #b0bbba;
+  color: black;
+  border: 1px solid #b0bbba;
+  transition: .5s;
+}
+
+.profile img {
+  object-fit: cover;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.btn5 {
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.layer img {
+  width: auto;
+  transition: .44s all ease;
+  opacity: .5;
+}
+.layer img:hover
+{
+  opacity: 1;
+}
+.im-logo img{
+  color: #155BD5;
+  background-color: #155BD5;
+  margin-bottom: 30px;
+}
+.putter{
+  margin-top: 50px !important;
+  padding: 50px;
+  background-color:#222222;
+}
+.putter li{
+  list-style: none;
+  margin-bottom: 10px;
+  color: white;
+}
+.putter p{
+  color: white;
+}
+.putter h4{
+  margin-bottom: 30px;
+  color: white;
+}
